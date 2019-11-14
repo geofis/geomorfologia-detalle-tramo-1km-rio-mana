@@ -1,0 +1,35 @@
+---
+title: "Geomorfología de detalle de un tramo de 1 kilómetro del río Mana, proximidades de Villa Altagracia, República Dominicana"
+author: José Ramón Martínez Batlle
+  #<br> joseramon@geografiafisica.org
+date: XVIII Jornada de Investigación Científica, UASD <br> 12, 13 y 14 de noviembre, 2019 <br> Santo Domingo, República Dominicana <br> https://geofis.github.io/geomorfologia-detalle-tramo-1km-rio-mana
+output:
+  revealjs::revealjs_presentation:
+    template: defaultmodificada.html
+    transition: fade
+bibliography: biblio.bib
+csl: apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Producción del último año
+<img src="img/durante-el-ultimo-ano.png"  height="100%" width="100%">
+
+|   |   |
+|---|---|
+|<span style="font-size:60%;">[Clusters of high abundance of plants detected from local indicators of spatial association (LISA) in a semi-deciduous tropical forest](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208780)</span> |<span style="font-size:60%;">[Drainage Rearrangement as a Driver of Geomorphological Evolution During the Upper Pleistocene in a Small Tropical Basin](http://www.ccsenet.org/journal/index.php/jgg/article/view/0/39703)|</span>|
+
+
+# Introducción
+
+
+
+# Referencias
+
+##
+
