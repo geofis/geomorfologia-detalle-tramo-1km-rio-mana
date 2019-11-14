@@ -27,9 +27,109 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introducción
 
+## Objetivo
 
+* Generar cartografía geomorfológica de resolución de escala de detalle (e.g. 1:250) de un tramo de ~1 km del río Mana, como base para avanzar en el conocimiento del medio físico y la biogeografía.
+
+## ![](img/qgis_contexto_isla.png)
+
+## ![](img/contexto_local_3D.png)
+
+## ![](img/geologia.png)
+
+## ![](img/contexto_local_muestras_google.png)
+
+## Principales elementos de geomorfología fluvial
+
+## ![](img/perfil_transversal_valle.png)
+
+Según @pedraza1996geomorfologia
+
+## ![](img/clasificacion_genetica_canales_fluviales.png)
+Según @elorza2008geomorfologia
+
+## ![](img/barras_islas.png)
+Según @elorza2008geomorfologia
+
+## ![](img/dimensiones_clastos_distribucion_canal.png)
+
+Según @bunte2001sampling
+
+# Materiales y métodos
+
+## Materiales
+
+* Drone + cámara.
+
+* QGIS + OpenDroneMap + GDAL + R.
+
+![](img/logos.jpg)
+
+
+## Método
+
+* Se realizaron __3 vuelos con drone+cámara__, entre junio y julio de 2019, en los que se tomaron 470 fotografías.
+
+* Se voló a alturas que garantizaran una distancia de muestreo en tierra __(GSD) de al menos 1 cm__.
+
+* Las fotografías se __restituyeron__ con OpenDroneMap.
+
+* Se generaron __ortofotografía y modelo digital de superficie__ (DSM).
+
+* La __geomorfología se digitalizó__ en QGIS, utilizando como fondo las capas ortofotgrafía y DSM.
+
+# Resultados preliminares
+
+## ![](img/qgis_geomorfologico_01.png)
+
+## ![](img/qgis_geomorfologico_02.png)
+
+## ![](img/qgis_geomorfologico_03.png)
+
+## ![](img/qgis_geomorfologico_04.png)
+
+## ![](img/qgis_geomorfologico_05.png)
+
+## ![](img/qgis_geomorfologico_06.png)
+
+## ![](img/qgis_geomorfologico_07.png)
+
+## ![](img/qgis_geomorfologico_08.png)
+
+## ![](img/qgis_geomorfologico_09.png)
+
+## ![](img/qgis_geomorfologico_10.png)
+
+## ![](img/qgis_geomorfologico_11.png)
+
+##
+
+* Unidad 1: canal activo de lecho __gravas, bloques dispersos y pozas artificiales__. No dosel de galería.
+
+* Unidad 2: ancho canal activo de lecho mixto, __con rápidos, isla y barras__. Dosel de galería presente.
+
+* Unidad 3: canal activo estrecho de lecho mixto (más bloques), __alternancia de rápidos y pozas__. Segmentos largos de dosel de galería.
+
+* Unidad 4: canal activo de lecho de bloques predominantes, __rápidos, pozas y barras__. No dosel de galería.
+
+* Unidad 5: __Poza profunda__, sustrato aflorante. No dosel de galería.
+
+*
+
+## ![](img/contexto_local_muestras_ortofoto.png)
+
+# Conclusiones
+
+##
+
+* La __fotogrametría digital__ aplicada a tomas aéreas tomadas por UAV, permite realizar __mapas geomorfológicos de detalle suficiente__ como para clasificar elementos morfológicos extremedamente pequeños (barras/islas, incluso segmentarlas, pozas, rápidos, depósitos de bloques, granulometría del fondo).
+
+* Se establecen al menos __5 unidades__ de acuerdo a las características geomorfológicas del canal.
+
+* Se espera __combinar estos resultados con análisis de comunidades__ de macroinvertebrados acuáticos, tomadas a intervalos cortos y regulares.
 
 # Referencias
+
 
 ##
 
