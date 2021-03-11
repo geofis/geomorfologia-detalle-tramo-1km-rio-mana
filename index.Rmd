@@ -1,6 +1,6 @@
 ---
 title: "Geomorfología de detalle de un tramo de 1 kilómetro del río Mana, proximidades de Villa Altagracia, República Dominicana"
-author: José Ramón Martínez Batlle
+author: José R. Martínez B. | América Sánchez R.
   #<br> joseramon@geografiafisica.org
 date: XVIII Jornada de Investigación Científica, UASD <br> 12, 13 y 14 de noviembre, 2019 <br> Santo Domingo, República Dominicana <br> https://geofis.github.io/geomorfologia-detalle-tramo-1km-rio-mana
 output:
@@ -114,9 +114,13 @@ Según @bunte2001sampling
 
 * Unidad 5: __Poza profunda__, sustrato aflorante. No dosel de galería.
 
-*
+## Muestras de macroinvertebrados colectadas en julio de 2019
 
 ## ![](img/contexto_local_muestras_ortofoto.png)
+
+## ![](img/1564164530244.jpg)
+
+## ![](img/1562943725360.jpg)
 
 # Conclusiones
 
