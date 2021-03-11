@@ -1,5 +1,8 @@
 # Geomorfología de detalle de un tramo de 1 kilómetro del río Mana, proximidades de Villa Altagracia, República Dominicana
 
+[![DOI](https://zenodo.org/badge/212830847.svg)](https://zenodo.org/badge/latestdoi/212830847)
+
+
 *XVIII Jornada de Investigación Científica, UASD*
 
 *12, 13 y 14 de noviembre, 2019*
