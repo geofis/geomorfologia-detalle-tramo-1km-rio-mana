@@ -1,0 +1,2 @@
+River channel segmentation using RandomForest from drone imagery (Mana River, DR). Next stop: U-Net convolutional neural network. Countless applications in geomorphology, ecology and geodiversity #MachineLearning #Python #DeepLearning
+Segmentación de canal fluvial usando RandomForest a partir de imágenes de drones (río Mana, RD). Próxima parada: red neuronal convolucional U-Net. Innumerables aplicaciones en geomorfología, ecología y geodiversidad #MachineLearning #Python #DeepLearning

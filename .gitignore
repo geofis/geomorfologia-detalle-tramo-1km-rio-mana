@@ -4,3 +4,9 @@
 .Ruserdata
 odm_orthophoto*
 digitalizacion
+machine_learning_rf/images/predict/segmented_whole_image/predicted_patches
+machine_learning_rf/images/train/*
+machine_learning_rf/images/original/*
+machine_learning_rf/images/predict/segmented_whole_image_first_test/*
+machine_learning_rf/df/*
+machine_learning_rf/model/*
