@@ -9,7 +9,7 @@ Mejorar entrenamiento de lo realizado hasta 3 de julio:
 ! -Predecir, con el modelo RF, la segmentación de todo el ortomosaico (tardó 5.5 horas). Al hacerlo, dividir el ortomosaico con patchify sin incluir STEP
 
 # U-Net
-! -Borrar la ribera (orilla) en cada imagen de entrenamiento (en todas la orilla aparece como bosque, que es un error). Para ello usé el archivo /home/jose/Documentos/odm/mana_whole/cnn/mask_2.gpkg y le apliqué un buffer interior de 15 cm (~8px) para eliminar la ribera; lo usé como máscara para cortar el raster segmentado global ("segmented_whole_image.tif") por medio de QGIS/gdal, y le puse por nombre "segmented_whole_image_shore_deleted" (creé primero un VRT para hacer el enmascarado con gdalwarp o "Cortar ráster por máscara", y luego un PNG a partir del VRT con la opción "-co WORLDFILE=YES").
+! -Borrar la ribera (orilla) en cada imagen de entrenamiento (una franja de unos 15 cm en toda la orilla aparece como bosque, lo cual es un error). Para borrarla, usé el archivo /home/jose/Documentos/odm/mana_whole/cnn/mask_2.gpkg, le apliqué un buffer interior de 15 cm (~8px), y lo apliqué como máscara a la imagen segmentada ("segmented_whole_image.tif") para eliminar la ribera por medio de QGIS/gdal, y le puse por nombre "segmented_whole_image_shore_deleted" (creé primero un VRT para hacer el enmascarado con gdalwarp o "Cortar ráster por máscara", y luego un PNG a partir del VRT con la opción "-co WORLDFILE=YES").
  -Parchear, en 128x128 o 256x256, las segmentaciones de las imágenes de entrenamiento resultantes, para generar un set de 1152 (si es 128x128) o de 288 imágenes de entrenamiento para U-Net.
  -Predecir, con el modelo U-Net, la segmentación de todo el ortomosaico. Al hacerlo, dividir el ortomosaico con patchify sin incluir STEP
 
@@ -17,3 +17,7 @@ Mejorar entrenamiento de lo realizado hasta 3 de julio:
 Machines beat humans in geomorphology. The Orthophoto is 2 cm/pix resolution. The map was created using "traditional" digitization techinques. The segmented raster was generated with the RandomForest algorithm #machinelearning #python
 
 Las máquinas superan a los humanos en geomorfología. La ortofoto tiene una resolución de 2 cm/pix. El mapa se creó utilizando técnicas de digitalización "tradicionales". El ráster segmentado se generó con el algoritmo RandomForest #machinelearning #python
+
+
+
+
