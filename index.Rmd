@@ -61,7 +61,7 @@ Según @bunte2001sampling
 
 * GNSS-RTK
 
-* PC de altas prestaciones + Python + OpenDroneMap + GDAL + QGIS + R
+* PC de "alto" rendimiento + Python + OpenDroneMap + GDAL + QGIS + R
 
 ![](img/logos.jpg){width=75%}
 
