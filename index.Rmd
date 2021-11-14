@@ -1,8 +1,8 @@
 ---
-title: "Geomorfología de detalle de un tramo de 1 kilómetro del río Mana, proximidades de Villa Altagracia, República Dominicana"
-author: José R. Martínez B. | América Sánchez R.
+title: "Cartografía geomorfológica de detalle de un río tropical usando fotografías aéreas de resolución centimétrica y *deep learning*"
+author: José R. Martínez B.
   #<br> joseramon@geografiafisica.org
-date: XVIII Jornada de Investigación Científica, UASD <br> 12, 13 y 14 de noviembre, 2019 <br> Santo Domingo, República Dominicana <br> https://geofis.github.io/geomorfologia-detalle-tramo-1km-rio-mana
+date: XX Jornada de Investigación Científica, UASD <br> 16, 17 y 18 de noviembre, 2021 <br> Santo Domingo, República Dominicana <br> https://geofis.github.io/geomorfologia-detalle-tramo-1km-rio-mana
 output:
   revealjs::revealjs_presentation:
     template: defaultmodificada.html
@@ -17,27 +17,11 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Producción del último año
-<img src="img/durante-el-ultimo-ano.png"  height="100%" width="100%">
-
-|   |   |
-|---|---|
-|<span style="font-size:60%;">[Clusters of high abundance of plants detected from local indicators of spatial association (LISA) in a semi-deciduous tropical forest](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208780)</span> |<span style="font-size:60%;">[Drainage Rearrangement as a Driver of Geomorphological Evolution During the Upper Pleistocene in a Small Tropical Basin](http://www.ccsenet.org/journal/index.php/jgg/article/view/0/39703)|</span>|
-
-
 # Introducción
 
-## Objetivo
+## ¿Pregunta?
 
-* Generar cartografía geomorfológica de resolución de escala de detalle (e.g. 1:250) de un tramo de ~1 km del río Mana, como base para avanzar en el conocimiento del medio físico y la biogeografía.
-
-## ![](img/qgis_contexto_isla.png)
-
-## ![](img/contexto_local_3D.png)
-
-## ![](img/geologia.png)
-
-## ![](img/contexto_local_muestras_google.png)
+* ¿Se puede clasificar la geomorfología utilizando sólo la información óptica de una ortoimagen?
 
 ## Principales elementos de geomorfología fluvial
 
@@ -55,28 +39,42 @@ Según @elorza2008geomorfologia
 
 Según @bunte2001sampling
 
+## Antecedentes
+
+## ![](img/qgis_contexto_isla.png)
+
+## ![](img/contexto_local_3D.png)
+
+## ![](img/geologia.png)
+
+<!-- ## ![](img/contexto_local_muestras_google.png) -->
+
+## ![](img/qgis_geomorfologico_05.png)
+
+## ![](img/qgis_geomorfologico_09.png)
+
 # Materiales y métodos
 
 ## Materiales
 
 * Drone + cámara.
 
-* QGIS + OpenDroneMap + GDAL + R.
+* GNSS-RTK
 
-![](img/logos.jpg)
+* PC de altas prestaciones + Python + OpenDroneMap + GDAL + QGIS + R
 
+![](img/logos.jpg){width=75%}
 
 ## Método
 
-* Se realizaron __3 vuelos con drone+cámara__, entre junio y julio de 2019, en los que se tomaron 470 fotografías.
+* Se realizaron __3 vuelos con drone+cámara__, entre junio y julio de 2019 y una repetición parcial en julio de 2021, en los que se tomaron >500 fotografías.
 
 * Se voló a alturas que garantizaran una distancia de muestreo en tierra __(GSD) de al menos 1 cm__.
 
 * Las fotografías se __restituyeron__ con OpenDroneMap.
 
-* Se generaron __ortofotografía y modelo digital de superficie__ (DSM).
+* Se generaron tanto __ortoimagen y modelo digital de superficie__ (DSM), pero en la clasificación sólo se usó la primera
 
-* La __geomorfología se digitalizó__ en QGIS, utilizando como fondo las capas ortofotgrafía y DSM.
 
 # Resultados preliminares
 
