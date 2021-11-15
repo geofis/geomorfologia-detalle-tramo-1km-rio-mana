@@ -39,7 +39,7 @@ Según @elorza2008geomorfologia
 
 Según @bunte2001sampling
 
-## Antecedentes
+## Localidad
 
 ## ![](img/qgis_contexto_isla.png)
 
@@ -48,6 +48,8 @@ Según @bunte2001sampling
 ## ![](img/geologia.png)
 
 <!-- ## ![](img/contexto_local_muestras_google.png) -->
+
+## Antecedentes
 
 ## ![](img/qgis_geomorfologico_05.png)
 
@@ -92,8 +94,6 @@ Según @bunte2001sampling
 
 ## ![](img/qgis_geomorfologico_08.png)
 
-## ![]()
-
 ## ![](img/qgis_geomorfologico_09.png)
 
 ## ![](img/qgis_geomorfologico_10.png)
@@ -132,6 +132,4 @@ Según @bunte2001sampling
 
 # Referencias
 
-
-##
-
+<section style="font-size: 24px; text-align: left;">
