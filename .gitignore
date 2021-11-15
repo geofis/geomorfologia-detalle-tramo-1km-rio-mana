@@ -17,3 +17,5 @@ deep_learning_u_net/model/using_non_smoothed_masks_from_majority_file/
 deep_learning_u_net/model/using_smoothed_masks_from_majority_file/*
 !deep_learning_u_net/model/using_smoothed_masks_from_majority_file/test17*
 
+bu-local.sh
+include-list
