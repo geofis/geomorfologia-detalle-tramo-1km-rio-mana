@@ -67,16 +67,14 @@ Según @bunte2001sampling
 
 ## Método
 
-* Se realizaron __3 vuelos con drone+cámara__, entre junio y julio de 2019 y una repetición parcial en julio de 2021, en los que se tomaron >500 fotografías.
+## ![](img/metodo-grafico.png){width=59%}
 
-* Se voló a alturas que garantizaran una distancia de muestreo en tierra __(GSD) de al menos 1 cm__.
+# Resultados
 
-* Las fotografías se __restituyeron__ con OpenDroneMap.
+## ¿Dónde están los resultados?
 
-* Se generaron tanto __ortoimagen y modelo digital de superficie__ (DSM), pero en la clasificación sólo se usó la primera
-
-
-# Resultados preliminares
+![](img/github-screenshot.jpg){width=90%}
+<small>Por el momento, aquí: https://github.com/geofis/geomorfologia-detalle-tramo-1km-rio-mana</small>
 
 ## ![](img/qgis_geomorfologico_01.png)
 
@@ -93,6 +91,8 @@ Según @bunte2001sampling
 ## ![](img/qgis_geomorfologico_07.png)
 
 ## ![](img/qgis_geomorfologico_08.png)
+
+## ![]()
 
 ## ![](img/qgis_geomorfologico_09.png)
 
