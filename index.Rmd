@@ -69,6 +69,26 @@ Según @bunte2001sampling
 
 ## ![](img/metodo-grafico.png){width=59%}
 
+## ![](img/metodo-grafico-01.png){width=59%}
+
+## ![](img/metodo-grafico-02.png){width=59%}
+
+## ![](img/metodo-grafico-03.png){width=59%}
+
+## ![](img/metodo-grafico-04.png){width=59%}
+
+## ![](img/metodo-grafico-05.png){width=59%}
+
+## ![](img/metodo-grafico-06.png){width=59%}
+
+## ![](img/metodo-grafico-07.png){width=59%}
+
+## ![](img/metodo-grafico-08.png){width=59%}
+
+## ![](img/metodo-grafico-09.png){width=59%}
+
+## ![](img/metodo-grafico-10.png){width=59%}
+
 # Resultados
 
 ## ¿Dónde están los resultados?
@@ -102,7 +122,7 @@ Según @bunte2001sampling
 
 - La clasificación final por U-Net supera todos los estándares.
 
-<!-- FALTA IMAGEN CLASIFICADA VISTA COMPLETA -->
+![](img/imagen-clasificada-completa.png){width=70%}
 
 ## Clasificación U-Net
 
