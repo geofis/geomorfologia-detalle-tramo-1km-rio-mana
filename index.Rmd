@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## ¿Pregunta?
 
-* ¿Se puede clasificar la geomorfología utilizando sólo la información óptica de una ortoimagen?
+- ¿Es la geomorfología extraíble desde fotografías aéreas por medio de algoritmos de aprendizaje profundo?
 
 ## Principales elementos de geomorfología fluvial
 
@@ -61,11 +61,9 @@ Según @bunte2001sampling
 
 * Drone + cámara.
 
-* GNSS-RTK
-
 * PC de "alto" rendimiento + Python + OpenDroneMap + GDAL + QGIS + R
 
-![](img/logos.jpg){width=75%}
+![](img/logos.jpg){width=85%}
 
 ## Método
 
@@ -77,6 +75,10 @@ Según @bunte2001sampling
 
 ![](img/github-screenshot.jpg){width=90%}
 <small>Por el momento, aquí: https://github.com/geofis/geomorfologia-detalle-tramo-1km-rio-mana</small>
+
+## Imagen fuente
+
+- La imagen fuente cubre un tramo de 1 km del río Mana, Villa Altagracia, con una resolución centimétrica (2 cm/pix, ~500 Mpix x 3 canales)
 
 ## ![](img/qgis_geomorfologico_01.png)
 
@@ -94,23 +96,84 @@ Según @bunte2001sampling
 
 ## ![](img/qgis_geomorfologico_08.png)
 
+## Clasificación
+
+- La imagen fuente fue clasificada en 7 clases siguiendo el flujo preparación > RF > U-Net
+
+- La clasificación final por U-Net supera todos los estándares.
+
+<!-- FALTA IMAGEN CLASIFICADA VISTA COMPLETA -->
+
+## Clasificación U-Net
+
+![](img/salida01f.png){width=40%}
+
+- Las clases geomorfológicas obtenidas fueron: __clastos-barras, rápidos y pozas__.
+
+- Otras clases obtenidas fueron: __vegetación baja, vegetación de ribera, sombra de vegetación__.
+
+## Precisión
+
+- El **cálculo tradicional de precisión simple** (e.g. métodos basados en kappa) para segmentación semántica no es apropiado, dado que el fondo (que normalmente ocupa grandes extensiones) **infla de manera ficticia la precisión**.
+
+- De hecho, la segmentación obtuvo un __99% de precisión__ por el método tradicional, pero esto es irreal y, de hecho, preocupante, porque sería una señal de sobreajuste.
+
+- Lo apropiado es utilizar "__intersección sobre unión__", que en este caso obtuvo __un 88%__.
+
+- La clase con menor precisión fue sombra de vegetación, por ser la menos representada en el área.
+
+## Zoom
+
+## ![](img/salida01a.png)
+
+## ![](img/salida01b.png)
+
+## ![](img/salida01c.png)
+
+## ![](img/salida01d.png)
+
+## ![](img/salida01e.png)
+
+## ![](img/salida01f.png)
+
+## ![](img/salida01g.png)
+
+## ![](img/salida01h.png)
+
+## Conjunto
+
+![](img/salida01mosaico.png)
+
+## Conjunto del área central
+
+![](img/salida02mosaico.png)
+
+# Discusión
+
+## Discusión y conclusiones
+
+- La __geomorfología es extraíble__ desde fotografías aéreas por medio de algoritmos de aprendizaje profundo.
+
+- Los productos de la __fotogrametría digital__ de tomas aéreas por UAV, procesados por medio de __algoritmos de aprendizaje automático y aprendizaje profundo__, son precisos.
+
+- El uso de técnicas de __machine learning__ de forma auxiliar, aumenta los datos de entrenamiento sin que se reduzca la precisión.
+
+## Discusión y conclusiones
+
+- Las __limitaciones informáticas__ se pueden suplir con servicios en línea (e.g. Google Colab).
+
+- El __uso del DSM__ en las fases de entrenamiento y de predicción, podría potenciar el resultado obtenido.
+
+- __Combinar estos resultados con análisis de comunidades__ de macroinvertebrados acuáticos es ahora __completamente viable__ a partir del exhaustivo mapa producido.
+
+
 ## ![](img/qgis_geomorfologico_09.png)
 
 ## ![](img/qgis_geomorfologico_10.png)
 
 ## ![](img/qgis_geomorfologico_11.png)
 
-##
-
-* Unidad 1: canal activo de lecho __gravas, bloques dispersos y pozas artificiales__. No dosel de galería.
-
-* Unidad 2: ancho canal activo de lecho mixto, __con rápidos, isla y barras__. Dosel de galería presente.
-
-* Unidad 3: canal activo estrecho de lecho mixto (más bloques), __alternancia de rápidos y pozas__. Segmentos largos de dosel de galería.
-
-* Unidad 4: canal activo de lecho de bloques predominantes, __rápidos, pozas y barras__. No dosel de galería.
-
-* Unidad 5: __Poza profunda__, sustrato aflorante. No dosel de galería.
+## ![](img/qgis_geomorfologico_11_X.png)
 
 ## Muestras de macroinvertebrados colectadas en julio de 2019
 
@@ -119,16 +182,6 @@ Según @bunte2001sampling
 ## ![](img/1564164530244.jpg)
 
 ## ![](img/1562943725360.jpg)
-
-# Conclusiones
-
-##
-
-* La __fotogrametría digital__ aplicada a tomas aéreas tomadas por UAV, permite realizar __mapas geomorfológicos de detalle suficiente__ como para clasificar elementos morfológicos extremedamente pequeños (barras/islas, incluso segmentarlas, pozas, rápidos, depósitos de bloques, granulometría del fondo).
-
-* Se establecen al menos __5 unidades__ de acuerdo a las características geomorfológicas del canal.
-
-* Se espera __combinar estos resultados con análisis de comunidades__ de macroinvertebrados acuáticos, tomadas a intervalos cortos y regulares.
 
 # Referencias
 

@@ -1,0 +1,2 @@
+montage -mode concatenate -tile 2x2 salida01a.png salida01h.png salida01d.png salida01f.png salida01mosaico.png
+montage -mode concatenate -tile 2x2 salida02a.png salida02h.png salida02d.png salida02f.png salida02mosaico.png
